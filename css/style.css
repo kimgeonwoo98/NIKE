@@ -1,0 +1,193 @@
+@charset "utf-8";
+@import url('./reset.css');
+
+#wrap {width: 1600px; margin: 0 auto;}
+
+
+#wrap #header {width: 1600px; height: 50px; display: flex; position: relative; z-index: 3;}
+#wrap #header .left {width: 200px; height: 100%; background: #fff;}
+#wrap #header .left > h1 {width: 100%; height: 100%;}
+#wrap #header .left > h1 > a {width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;}
+#wrap #header .left > h1 > a > img {width: 40%;}
+
+
+#wrap #header .right {width: 1400px;height: 100%;}
+#wrap #header .right #nav {
+    width:800px;margin:0px 40px 0px auto; 
+}
+#wrap #header .right #nav > ul {display: flex;width:100%;}
+#wrap #header .right #nav > ul > li {
+    width:16.666%;
+    overflow: hidden;
+}
+
+#wrap #header .right #nav > ul > li > a {
+    width: 100%;display: flex;align-items: center;justify-content: center;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    transition: all 0.9s;
+    background: #fff;
+}
+#wrap #header .right #nav > ul > li > a:hover {
+    background: #000;
+    color: #fff;
+}   
+#wrap #header .right #nav > ul > li > a.on {
+    background: #000;
+    color: #fff;
+}   
+
+
+#wrap #header .right #nav > ul > li > .sub {width: 100%; position: absolute; top: 50px; left: 0; background: rgba(50, 50, 50, 0.5); overflow: hidden; display: none;}
+/* #wrap #header .right #nav > ul > li > .sub6 {display: block;} */
+#wrap #header .right #nav > ul > li > .sub .sub-container {
+    width: 700px;
+}
+#wrap #header .right #nav > ul > li > .sub .sub-container > ul {width: 100%; display: flex; border-top: 1px solid rgba(50, 50, 50, 0.5); padding: 20px 0;}
+#wrap #header .right #nav > ul > li > .sub .sub-container > ul > li {width: 25%;}
+#wrap #header .right #nav > ul > li > .sub .sub-container > ul > li ul {width: 100%;}
+#wrap #header .right #nav > ul > li > .sub .sub-container > ul > li ul li {width: 100%;}
+#wrap #header .right #nav > ul > li > .sub .sub-container > ul > li ul li a {
+width: 100%;
+height: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+}
+
+#wrap #header .right #nav > ul > li > .sub .sub-container > ul > li ul li a:hover {
+    background: #fff;
+    color: #000;
+}
+
+#wrap #header .right #nav > ul > li > .sub1 .sub-container {margin: 0 160px 0 auto;}
+#wrap #header .right #nav > ul > li > .sub2 .sub-container {margin: 0 30px 0 auto;}
+#wrap #header .right #nav > ul > li > .sub3 .sub-container {margin: 0 -105px 0 auto;}
+#wrap #header .right #nav > ul > li > .sub4 .sub-container {margin: 0 -240px 0 auto;}
+#wrap #header .right #nav > ul > li > .sub5 .sub-container {margin: 0 -370px 0 auto;}
+#wrap #header .right #nav > ul > li > .sub6 .sub-container {margin: 0 -500px 0 auto;}
+
+#wrap #main {width: 1600px; height: 600px; position: relative; z-index: 2;}
+
+#wrap #main #section1 {width: 100%; height: 405px; overflow: hidden;}
+#wrap #main #section1 .container {width: 100%; height: 100%;}
+#wrap #main #section1 .container .content {width: 100%; height: 100%; background-color: #000;}
+#wrap #main #section1 .container .content .slide-container {width: 100%; height: 100%;}
+#wrap #main #section1 .container .content .slide-container .slide-content {width: 100%; height: 100%;}
+#wrap #main #section1 .container .content .slide-container .slide-content .slide-wrap1 {width: 100%; height: 100%; position: relative; margin-top: -405px; top: 0%;}
+#wrap #main #section1 .container .content .slide-container .slide-content .slide-wrap1 .slide {width: 100%; height: 100%;}
+#wrap #main #section1 .container .content .slide-container .slide-content .slide-wrap1 .slide .img-box {width: 100%; height: 100%; background: url() no-repeat 50% 50%; background-size: cover; display: flex;}
+
+#wrap #main #section1 .container .content .slide-container .slide-content .slide-wrap1 .slide1 .img-box {background-image: url(../imgs/nike-just-do-it\ \(23\).jpg); background-position: 50% 20%;}
+#wrap #main #section1 .container .content .slide-container .slide-content .slide-wrap1 .slide2 .img-box {background-image: url(../imgs/nike-just-do-it\ \(13\).jpg); background-position: 50% 30%;}
+#wrap #main #section1 .container .content .slide-container .slide-content .slide-wrap1 .slide3 .img-box {background-image: url(../imgs/nike-just-do-it\ \(16\).jpg); background-position: 50% 60%;}
+#wrap #main #section1 .container .content .slide-container .slide-content .slide-wrap1 .slide4 .img-box {background-image: url(../imgs/nike-just-do-it\ \(17\).jpg); background-position: 50% 0%;}
+#wrap #main #section1 .container .content .slide-container .slide-content .slide-wrap1 .slide5 .img-box {background-image: url(../imgs/nike-just-do-it\ \(18\).jpg);}
+#wrap #main #section1 .container .content .slide-container .slide-content .slide-wrap1 .slide6 .img-box {background-image: url(../imgs/nike-just-do-it\ \(20\).jpg); background-position: 50% 100%;}
+
+#wrap #main #section2 {width: 1600px; height: 200px; display: flex; padding: 10px 0;}
+
+#wrap #main #section2 .left {width: 400px; height: 100%; padding-right: 10px;}
+#wrap #main #section2 .left .container {width: 100%; height: 150px; position: relative; margin-top: 35px;}
+#wrap #main #section2 .left .container .title {width: 100%; height: 36px; display: flex; padding-left: 10px; position: absolute; top: 0; left: 0; z-index: 2; margin-top: -35px;}
+#wrap #main #section2 .left .container .title > button {height: 36px; background: #fff; border: 1px solid #333; border-radius: 6px 6px 0 0; padding: 0 10px;}
+#wrap #main #section2 .left .container .title .notice-btn {border-bottom: 1px solid transparent;}
+#wrap #main #section2 .left .container .title .notice-btn.on {background: #ddd; cursor: pointer; border-bottom: 1px solid #333;}
+#wrap #main #section2 .left .container .title .usre-btn {background: #ddd; cursor: pointer;}
+#wrap #main #section2 .left .container .title .usre-btn.on {border-bottom: 1px solid transparent; background: #fff;}
+
+#wrap #main #section2 .left .container .content {width: 100%; height: 145px; background: #fff; border: 1px solid #333; position: relative; z-index: 1;}
+#wrap #main #section2 .left .container .content > div {width: 100%; height: 100%; padding: 0 10px; background: #fff; padding-top: 5px;}
+#wrap #main #section2 .left .container .content .notice-box {width: 100%; height: 100%;}
+#wrap #main #section2 .left .container .content .usre-box {width: 100%; height: 100%; display: none;}
+
+#wrap #main #section2 .left .container .content > div > ul {width: 100%;}
+#wrap #main #section2 .left .container .content > div > ul > li {width: 100%; line-height: 30px; border-bottom: 1px dotted #ddd; padding-left: 13px; position: relative; display: flex; justify-content: space-between;}
+#wrap #main #section2 .left .container .content > div > ul > li > a {font-size: 16px; width: 200px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; display: block;}
+#wrap #main #section2 .left .container .content > div > ul > li > a:hover {color: #77f; text-decoration: underline;}
+#wrap #main #section2 .left .container .content > div > ul > li > span {color: #999; user-select: none;}
+
+
+#wrap #main #section2 .rigth {width: calc(100% - 400px); height: 100%; position: relative;}
+#wrap #main #section2 .rigth .container {width: 100%; height: 100%;}
+#wrap #main #section2 .rigth .container .content {width: 100%; height: 100%;}
+#wrap #main #section2 .rigth .container .content .slide-container {width: 100%; height: 100%;}
+#wrap #main #section2 .rigth .container .content .slide-container .slide-content {width: 100%; height: 100%;overflow: hidden;}
+#wrap #main #section2 .rigth .container .content .slide-container .slide-content .slide-wrap2 {width: 1200%; height: 100%; display: flex; align-items: center; position: relative; top: 0; margin-left: -400px;}
+#wrap #main #section2 .rigth .container .content .slide-container .slide-content .slide-wrap2 .slide {width: 390px; height: 100%; background: url() no-repeat 50% 50%; background-size: cover;margin-left:10px;} 
+#wrap #main #section2 .rigth .container .content .slide-container .slide-content .slide-wrap2 .slide a {width: 100%; height: 100%; display: block; border: 1px solid #333;}
+
+
+#wrap #main #section2 .rigth .container .content .slide-container .slide-content .slide-wrap2 .slide1 {background-image: url(../imgs/s2_1.jpg); background-position: 50% 65%;}
+#wrap #main #section2 .rigth .container .content .slide-container .slide-content .slide-wrap2 .slide2 {background-image: url(../imgs/s2_2.jpg); background-position: 50% 60%;}
+#wrap #main #section2 .rigth .container .content .slide-container .slide-content .slide-wrap2 .slide3 {background-image: url(../imgs/s2_3.jpg); background-position: 50% 50%;}
+#wrap #main #section2 .rigth .container .content .slide-container .slide-content .slide-wrap2 .slide4 {background-image: url(../imgs/s2_4.jpg); background-position: 50% 50%;}
+#wrap #main #section2 .rigth .container .content .slide-container .slide-content .slide-wrap2 .slide5 {background-image: url(../imgs/s2_5.jpg); background-position: 50% 50%;}
+#wrap #main #section2 .rigth .container .content .slide-container .slide-content .slide-wrap2 .slide6 {background-image: url(../imgs/s2_6.jpg); background-position: 50% 60%;}
+#wrap #main #section2 .rigth .container .content .slide-container .slide-content .slide-wrap2 .slide7 {background-image: url(../imgs/s2_7.jpg); background-position: 50% 50%;}
+#wrap #main #section2 .rigth .container .content .slide-container .slide-content .slide-wrap2 .slide8 {background-image: url(../imgs/s2_8.jpg); background-position: 50% 53%;}
+#wrap #main #section2 .rigth .container .content .slide-container .slide-content .slide-wrap2 .slide9 {background-image: url(../imgs/s2_9.jpg); background-position: 50% 65%;}
+#wrap #main #section2 .rigth .container .content .slide-container .slide-content .slide-wrap2 .slide10 {background-image: url(../imgs/s2_10.jpg); background-position: 50% 65%;}
+
+#wrap #main #section2 .rigth .bnt-box {width: 100px; height: 100px; background: url() no-repeat 0% 0%; background-size: cover;}
+#wrap #main #section2 .rigth .bnt-box .next-btn {
+    width: 100px;
+    height: 100px;
+    background-image: url(../imgs/icons8-정렬-왼쪽-100\ \(1\).png);
+    position: absolute;
+    top: 23%;
+    right: 0%;
+    transform: rotate(180deg);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#wrap #main #section2 .rigth .bnt-box .next-btn:hover {background-image: url(../imgs/icons8-정렬-왼쪽-100.png);}
+#wrap #main #section2 .rigth .bnt-box .prve-btn {
+    width: 100px; 
+    height: 100px; 
+    background-image: url(../imgs/icons8-정렬-왼쪽-100\ \(1\).png);
+    position: absolute;
+    top: 23%;
+    left: 0%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#wrap #main #section2 .rigth .bnt-box .prve-btn:hover {background-image: url(../imgs/icons8-정렬-왼쪽-100.png);}
+
+
+#wrap #footer {width: 100%; height: 100px; display: flex; z-index: 3; border: 1px solid #333;}
+
+#wrap #footer .left {width: 200px; height: 100%;}
+#wrap #footer .left .f-content {width: 100%; height: 100%;}
+#wrap #footer .left .f-content .img-box2 {width: 100%; height: 100%;}
+#wrap #footer .left .f-content .img-box2 a {display: flex; width: 100%; height: 100%;}
+#wrap #footer .left .f-content .img-box2 a img {width: 100%; height: 100%;}
+
+
+
+#wrap #footer .center {width: 1200px; height: 100%; padding-top: 5px; border-left: 1px solid #333; border-right: 1px solid #333;}
+#wrap #footer .center address {font-size: 11px; color: #999; text-align: center; line-height: 150%;}
+#wrap #footer .center address span {display: block; padding-top: 10px; font-size: 12px; color: #bbb; width: 100%; text-align: center;}
+
+#wrap #footer .right {width: 200px; height: 100%;}
+#wrap #footer .right .sns-box {width: 200px; height: 100%; display: flex; justify-content: center; align-items: center;}
+#wrap #footer .right .sns-box a {padding-left: 15px;}
+#wrap #footer .right .sns-box a img {}
+
+#wrap .modal {position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.6); z-index: 5; display: flex; align-items: center; justify-content: center; display: none;}
+#wrap .modal.close {display: none;}
+#wrap .modal.open {display: flex;}
+#wrap .modal .container {width: 600px; height: 300px; background: #fff; position: relative; padding: 20px;}
+
+#wrap .modal .container .title {width: 100%; border-bottom: 1px solid #888;}
+#wrap .modal .container .title h1 {width: 100%; line-height: 50px; font-size: 20px; font-weight: 600;}
+
+#wrap .modal .container .content {width: 100%; padding: 20px 20px; text-align: center;}
+#wrap .modal .container .content li {width: 100%; line-height: 140%; padding: 5px 0;}
+#wrap .modal .container .content li span {width: 100%; line-height: 180%; padding: 5px 0; color: #999;}
+
+#wrap .modal .container .btn-box {width: 100%; padding: 15px 0 0 0; text-align: right; position: absolute; top: 80%; left: -3%;}
+#wrap .modal .container .btn-box button {padding: 5px 20px;}
